@@ -1,0 +1,32 @@
+.navBar {
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.377);
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} 
+.navBar button {
+    text-align: center;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.navBar button:hover {
+    text-decoration: underline;
+    border: none;
+    font-weight: bold;
+}
+.navBar button:visited {
+    text-decoration: none;
+    border: none;
+    outline:none;
+}
+.navBar button:active {
+    text-decoration: none;
+    border: none;
+    outline:none;
+}

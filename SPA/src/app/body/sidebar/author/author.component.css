@@ -1,0 +1,15 @@
+#author {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: justify;
+}
+#authorImage {
+    width: 120px;
+    image-orientation:  center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}

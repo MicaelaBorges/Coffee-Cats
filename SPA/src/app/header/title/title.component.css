@@ -1,0 +1,28 @@
+#headerText {
+    position: relative; 
+    text-align: center;
+    top: 60px;
+}
+#catImage {
+    margin: 0;
+}
+#coffeeImage {
+    margin: 1;
+    width: 80px;
+    height: auto;
+}
+.headerWord1{
+    font-family: 'Barrio';
+    font-size: 100px;
+    color: 202020;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.headerWord2{
+    font-family: 'Alex Brush';
+    font-size: 100px;
+    display: inline-block;
+    margin: 0 4px 0 0;
+    padding: 0;
+}

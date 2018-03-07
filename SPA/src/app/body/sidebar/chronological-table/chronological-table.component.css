@@ -1,0 +1,19 @@
+#chronologicalTable {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.timeTableLinks {
+    font-size: 16px;
+    color: black;
+}
+.timeTableLinks:link {
+    text-decoration: none;
+    color: black;
+}
+.timeTableLinks:hover {
+    text-decoration: none;
+    font-weight: none;
+    color: black;
+}

@@ -1,0 +1,10 @@
+.searchBar {
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 850px;
+    right: 0px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 0.5;
+}

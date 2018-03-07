@@ -1,0 +1,11 @@
+.instagramPics {
+    width: 95px;
+    padding: 1px;
+}
+#socialNetwork {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
