@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 
 @Component({
@@ -8,4 +9,6 @@ import { HeaderComponent } from './header/header.component';
 })
 export class AppComponent {
   title = 'Cats n´coffee';
+  
+  constructor(private http: HttpClient){  }
 }
