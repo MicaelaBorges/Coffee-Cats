@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { AppRoutingModule } from './/app-routing.module';
 import { BrowserModule }    from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http'
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './header/header.component';
@@ -21,6 +21,7 @@ import { VideosComponent } from './body/videos/videos.component';
 import { PostsComponent } from './body/posts/posts.component';
 import { Post001Component } from './body/posts/post001/post001.component';
 import { Post002Component } from './body/posts/post002/post002.component';
+import { NotesComponent } from './body/notes/notes.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { Post002Component } from './body/posts/post002/post002.component';
     VideosComponent,
     Post001Component,
     Post002Component,
+    NotesComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +51,8 @@ import { Post002Component } from './body/posts/post002/post002.component';
     FlexLayoutModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
