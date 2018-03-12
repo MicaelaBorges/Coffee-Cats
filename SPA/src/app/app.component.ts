@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from './header/header.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Cats n´coffee';
+    title = 'Cats n´coffee';
+
+    constructor(private http: HttpClient){
+    }
 }

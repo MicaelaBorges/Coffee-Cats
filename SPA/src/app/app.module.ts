@@ -24,35 +24,35 @@ import { Post002Component } from './body/posts/post002/post002.component';
 import { NotesComponent } from './body/notes/notes.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    FrontPageComponent,
-    AuthorComponent,
-    SocialNetworkComponent,
-    SearchBarComponent,
-    ChronologicalTableComponent,
-    NavigationBarComponent,
-    TitleComponent,
-    BodyComponent,
-    SidebarComponent,
-    PostsComponent,
-    PhotosComponent,
-    VideosComponent,
-    Post001Component,
-    Post002Component,
-    NotesComponent
-  ],
-  imports: [
-    BrowserModule,
-    // import HttpClientModule after BrowserModule.
-    HttpClientModule,
-    FlexLayoutModule,
-    AppRoutingModule,
-  ],
-  providers: [
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        FooterComponent,
+        FrontPageComponent,
+        AuthorComponent,
+        SocialNetworkComponent,
+        SearchBarComponent,
+        ChronologicalTableComponent,
+        NavigationBarComponent,
+        TitleComponent,
+        BodyComponent,
+        SidebarComponent,
+        PostsComponent,
+        PhotosComponent,
+        VideosComponent,
+        Post001Component,
+        Post002Component,
+        NotesComponent
+    ],
+    imports: [
+        BrowserModule,
+        // import HttpClientModule after BrowserModule.
+        HttpClientModule,
+        FlexLayoutModule,
+        AppRoutingModule,
+    ],
+    providers: [
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
