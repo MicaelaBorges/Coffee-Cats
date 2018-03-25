@@ -26,11 +26,11 @@ export class NotesService {
         return this.http.get<Note>(url2)
           .pipe(
             map(notes => notes[0]),
-            tap(n => {
-          const outcome = n ? `fetched` : `did not find`;
-          this.log(`${outcome} note id=${title}`);
-        }),
-        catchError(this.handleError<Note>(`getNote id=${title}`))
+            //tap(n => {
+              //const outcome = n ? `fetched` : `did not find`;
+              //this.log(`${outcome} note id=${title}`);
+            //}),
+            //catchError(this.handleError<Note>(`getNote id=${title}`))
           )
       }
 }
