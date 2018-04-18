@@ -20,17 +20,4 @@ export class NotesService {
     getNotes(): Observable<Note[]> {
         return this.http.get<Note[]>(this.url)
     }
-
-    getNotesNo404<Data>(title: string): Observable<Note> {
-        const url2 = `${this.url}/id={title}`;
-        return this.http.get<Note>(url2)
-          .pipe(
-            map(notes => notes[0]),
-            //tap(n => {
-              //const outcome = n ? `fetched` : `did not find`;
-              //this.log(`${outcome} note id=${title}`);
-            //}),
-            //catchError(this.handleError<Note>(`getNote id=${title}`))
-          )
-      }
 }

@@ -1,8 +1,7 @@
 <div class="content">
     <h1 class="title">NOTAS:</h1>
-    <div *ngFor="let note of notesService.notes">
+    <div *ngFor="let note of notes">
         <h2>{{ note.title }}</h2>
         <p>{{ note.text }}</p>
-        <p>{{ note._id }}</p>
     </div>
 </div>
